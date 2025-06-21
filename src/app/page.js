@@ -6,9 +6,6 @@ import ProductsDisplay from "../../components/ProductDisplay";
 import Footer from "../../components/Footer";
 
 export default function Home() {
-  function hello(){
-    console.log("hello")
-  }
   return (
     <>
       <HeroSection />

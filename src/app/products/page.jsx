@@ -1,5 +1,6 @@
-'use client';
-import ProductsDisplay from '../../../components/ProductDisplay';
+"use client";
+import { Suspense } from "react";
+import ProductsDisplay from "../../../components/ProductDisplay";
 
 export default function ProductsPage() {
   return (
@@ -7,7 +8,9 @@ export default function ProductsPage() {
       <h1 className="text-2xl md:text-4xl font-bold text-center mb-8">
         Our Products
       </h1>
-    <ProductsDisplay/>
+      <Suspense fallback={<div>Loading products...</div>}>
+        <ProductsDisplay />
+      </Suspense>
     </main>
   );
 }
