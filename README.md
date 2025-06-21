@@ -1,43 +1,35 @@
 # Geer Intern Assignment
 
-## Project Overview
+## Tech Stack
 
-This is a simple product management app built with Next.js. It allows users to view products, add new products, edit existing ones, and delete products. It also supports filtering products by category.
+- **Next.js 13** (App Router)
+- **React** (Client components)
+- **Tailwind CSS** – For responsive and clean UI styling
+- **React Icons** – For visual icons
+- **Next.js API Routes** – Simulating backend with local API
+- **localStorage** – For managing the cart state
 
-## How to Run the Project
+---
 
-1. Clone the repository:
+## ⚙️ Getting Started
 
-   ```bash
-   git clone https://github.com/praveenstp09/geer-intern-assignment.git
-   cd geer-intern-assignment
-   
-2.Install dependencies and start the development server:
+To run the project locally:
+
+### 1. Clone the Repository
+      git clone https://github.com/praveenstp09/geer-intern-assignment.git
+      cd geer-intern-assignment
+
+### 2.Install dependencies and start the development server:
 
       npm install
       npm run dev
 
-3. Open your browser and visit:
+#### 3. Open your browser and visit:
 
       http://localhost:3000
 
 
-Tech Stack Used
-
-Next.js 13 (App Router)
-
-React (with client components)
-
-Tailwind CSS for styling
-
-React Icons for icons
-
-Local API routes (Next.js API routes)
-
-Local storage for cart management
-
-
-Notes and Assumptions
+## Notes and Assumptions
 
 The product data is stored in-memory inside a JavaScript array (/lib/data.js). This means data will reset on server restart.
 
