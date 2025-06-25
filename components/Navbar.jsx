@@ -9,12 +9,12 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white shadow-lg">
       <div className="flex items-center justify-between px-6 py-4">
-        {/* Logo */}
+
         <div className="text-2xl font-bold text-orange-600">
-          <Link href="/">Tech</Link>
+          <Link href="/">Tech kart</Link>
         </div>
 
-        {/* Menu */}
+    
         <ul className="hidden md:flex space-x-6 text-sm font-medium text-gray-700 uppercase">
           <li>
             <Link href="/" className="hover:text-orange-600">
@@ -50,10 +50,9 @@ export default function Navbar() {
             <FaSearch className="absolute left-2 text-gray-500" />
           </div>
 
-          {/* User Icon */}
+          
           <FaUser className="text-gray-700 cursor-pointer hover:text-orange-600" />
 
-          {/* Cart Icon with Count */}
           <Link href="/cart" className="relative cursor-pointer">
             <FaShoppingCart className="text-gray-700 hover:text-orange-600" />
             <span className="absolute -top-2 -right-2 bg-black text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">

@@ -74,7 +74,7 @@ export default function CartPage() {
                 </div>
               </div>
             ))}
-            <Link href="/products" className="inline-block text-sm text-blue-600 hover:underline mt-4">
+            <Link href="/products" className="inline-block text-sm text-orange-600 hover:underline mt-4">
               ← Continue Shopping
             </Link>
           </div>
@@ -94,7 +94,7 @@ export default function CartPage() {
               <span>Total</span>
               <span>₹{total}</span>
             </div>
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-full font-semibold transition">
+            <button className="w-full bg-orange-600 hover:bg-orange-700 text-white py-3 rounded-full font-semibold transition">
               Proceed to Checkout
             </button>
           </div>
